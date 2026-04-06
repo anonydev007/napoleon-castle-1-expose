@@ -382,6 +382,81 @@ img { max-width: 100%; height: auto; }
 .footer-links { display: flex; gap: 16px; justify-content: center; }
 .footer-links a { color: var(--text-muted); font-size: 0.85rem; }
 
+/* === Multi-language Banner === */
+.multilang-banner {
+  background: var(--bg-card);
+  padding: 28px 20px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.multilang-title {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+
+.multilang-grid {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.multilang-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  background: var(--bg-secondary);
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-primary);
+  font-weight: 600;
+  transition: border-color 0.2s, transform 0.2s, background 0.2s;
+}
+
+.multilang-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-2px);
+  background: rgba(233, 69, 96, 0.05);
+}
+
+.multilang-btn.active {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: #fff;
+  pointer-events: none;
+}
+
+.multilang-btn.active .multilang-flag {
+  background: #fff;
+  color: var(--accent);
+}
+
+.multilang-btn.active .multilang-label {
+  color: #fff;
+}
+
+.multilang-flag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.multilang-label { font-size: 1rem; }
+
 /* === Landing Page (Language Selector) === */
 .landing-page {
   display: flex;
