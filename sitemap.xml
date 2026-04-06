@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://{DOMAIN}/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://{DOMAIN}/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://{DOMAIN}/en/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://{DOMAIN}/zh/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://{DOMAIN}/ru/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://{DOMAIN}/ja/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://{DOMAIN}/ko/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://{DOMAIN}/index.html"/>
+    <lastmod>2026-04-06</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://{DOMAIN}/en/index.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://{DOMAIN}/zh/index.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://{DOMAIN}/ru/index.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://{DOMAIN}/ja/index.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://{DOMAIN}/ko/index.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://{DOMAIN}/en/posts/part-1.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://{DOMAIN}/en/posts/part-2.html</loc>
+    <lastmod>2026-04-06</lastmod>
+    <priority>0.7</priority>
+  </url>
+</urlset>
